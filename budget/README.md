@@ -1,48 +1,26 @@
 # Personal Money Tracker
 
-A rebuilt expense system based on `Budget_To-Do_List (2024-2025).xlsx`.
+Rebuilt from `Budget_To-Do_List (2024-2025).xlsx`.
 
-## Why this exists
+## Braun edition (recommended)
 
-The old workbook split spending across monthly blocks, separate grocery/misc sheets, and hard-coded cell links. Totals broke when rows moved, and logging felt easy to miss.
+**File:** `Personal_Money_Tracker_Braun.xlsx`
 
-This file uses one continuous **Log**, plus a **Dashboard** that answers “what’s left this month?”
-
-## Phone vs spreadsheet
-
-This is still a spreadsheet (best for your history and formulas). For phone use:
-
-1. Upload `Personal_Money_Tracker.xlsx` to Google Drive  
-2. Open it with the **Google Sheets** app  
-3. Star the **Log** tab for daily entry  
-
-You do not need a separate website.
-
-## Sheets
+Distilled to four sheets, quiet Braun-style layout (warm paper, hairlines, one orange “remaining” number):
 
 | Sheet | Use |
 | --- | --- |
-| How to use | Short instructions |
-| Log | Daily entry (yellow rows at top) + imported history |
-| Dashboard | Month selector, planned left, category vs budget |
-| Budget | Monthly category targets (edit these) |
-| Income Plan | Expected paychecks / stipend |
-| Recurring | Rent, utilities, subscriptions checklist |
-| Accounts | Balances and card amounts owed |
-| Investments | Snapshot values over time |
-| Wishlist | Home/projects list (kept out of money log) |
+| This Month | What’s left + category left |
+| Log | Daily entry (top rows) + history |
+| Plan | Spend targets, income, recurring |
+| Balances | Have / owe |
 
-## Daily habit
+**Daily:** Log a purchase → check **This Month → REMAINING**.
 
-1. Open **Log**  
-2. Fill a yellow row: date, what, amount, category, account  
-3. Check **Dashboard** when you want to know what you can still spend  
+## Original full edition
 
-## Imported from the old file
+`Personal_Money_Tracker.xlsx` — same engine, more sheets (Dashboard, Wishlist, Investments, etc.).
 
-- ~250 Misc + Grocery transactions (Sep 2025–May 2026)  
-- Subscriptions → Recurring  
-- Investment snapshots  
-- Do now / later / never / done → Wishlist  
+## Phone
 
-Spot-check categories after import; a few merchant names may need a one-time fix.
+Upload the `.xlsx` to Google Drive → open in the Google Sheets app. Star **Log**.
