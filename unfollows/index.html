@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>The list</title>
+  <style>
+    :root {
+      --bg: #141311;
+      --bg-2: #1c1a17;
+      --ink: #e8e0d4;
+      --mute: #9a9084;
+      --line: #2e2b27;
+      --hurt: #c4a494;
+      --ok: #8a9aa3;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; background: var(--bg); color: var(--ink); }
+    body {
+      font: 16px/1.55 "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+      max-width: 38rem;
+      margin: 0 auto;
+      padding: 3rem 1.25rem 6rem;
+    }
+    h1, h2, h3 {
+      font-family: "Avenir Next Condensed", "DIN Condensed", "Helvetica Neue", sans-serif;
+      font-weight: 600;
+      letter-spacing: 0.02em;
+    }
+    h1 { font-size: 2.4rem; line-height: 1.05; margin: 0 0 0.5rem; font-weight: 700; }
+    .kicker {
+      font-family: "Avenir Next Condensed", "DIN Condensed", "Helvetica Neue", sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 0.18em;
+      font-size: 0.72rem;
+      color: var(--mute);
+      margin-bottom: 0.75rem;
+    }
+    .lede { font-size: 1.12rem; color: var(--hurt); margin: 0 0 2.5rem; }
+    h2 { font-size: 1.15rem; margin: 2.5rem 0 0.75rem; text-transform: uppercase; letter-spacing: 0.08em; }
+    h3 { font-size: 1rem; margin: 1.5rem 0 0.4rem; color: var(--ok); }
+    p { margin: 0 0 1rem; }
+    blockquote {
+      margin: 1.25rem 0 1.5rem;
+      padding: 1rem 1rem 1rem 1.1rem;
+      border-left: 2px solid var(--hurt);
+      background: var(--bg-2);
+      color: var(--ink);
+      font-size: 1.02rem;
+    }
+    ul { margin: 0 0 1rem; padding-left: 1.1rem; }
+    li { margin: 0.25rem 0; }
+    .pile {
+      background: var(--bg-2);
+      border: 1px solid var(--line);
+      padding: 1rem 1.1rem 0.85rem;
+      margin: 0 0 0.85rem;
+    }
+    .pile h3 { margin-top: 0; }
+    .muted { color: var(--mute); }
+    .rule { border: 0; border-top: 1px solid var(--line); margin: 2.5rem 0; }
+    strong { font-weight: 650; }
+    a { color: var(--hurt); }
+    @media (min-width: 720px) {
+      body { font-size: 17px; padding-top: 4.5rem; }
+      h1 { font-size: 3rem; }
+    }
+  </style>
+</head>
+<body>
+  <p class="kicker">211 names · not a rebrand</p>
+  <h1>The list</h1>
+  <p class="lede">You looked at who doesn’t follow you, recognized people, and felt something ugly and specific.</p>
+
+  <p>Not: <em>why don’t I have more followers.</em></p>
+  <blockquote>
+    Why would someone who knows me, who I’ve actually talked to — including this year, including about doing something together — decide they specifically don’t want to see me anymore? I don’t pollute the internet. I provide something. Even if I didn’t: what the fuck?
+  </blockquote>
+  <p>That reaction is proportionate to what you did. You didn’t glance at a count. You <strong>saw the names</strong>.</p>
+
+  <h2>Why a list hits differently than a number</h2>
+  <p>211 out of 935 is about 23%. As a statistic, that’s ordinary. Your following list is also partly a cultural map — artists, DJs, photographers, NYC venues, brands, publications — so a non-reciprocal slice is built in.</p>
+  <p>None of that is what happened in your body when you scrolled.</p>
+  <p>A number is weather. A list is a series of people.</p>
+  <p>Each row is a little social scene: <em>wait. YOU?</em> And because you can picture their face, the conversation, the maybe-we-should, Instagram turns a database difference into a feeling that they <strong>went out of their way</strong>.</p>
+  <p>Sometimes they did. A lot of the time they did something much dumber and colder than that, which is not the same as “it doesn’t matter.”</p>
+  <p>The sting is not that 211 people failed a popularity test. The sting is <strong>recognition</strong>. You weren’t rejected by a crowd. You were (apparently) dropped by individuals you had filed as <em>in the story</em>.</p>
+
+  <h2>What this list actually is</h2>
+  <p>It is not 211 people who all sat down, thought about Roberto, and chose no. It is at least four different piles wearing one label: “doesn’t follow you.”</p>
+
+  <div class="pile">
+    <h3>1. Unsurprising — they were never going to</h3>
+    <p><strong>Arca. Charli XCX. Kelela. FKA twigs. Oklou.</strong> Plus the other famous artists, big venues, publications, institutions, brands.</p>
+    <p class="muted">These are coordinates on a map, not a social relationship. They only borrow hurt from sitting in the same column as a person you had a drink with. That’s the trap of the export: it flattens Arca and a photographer you actually spoke to into one betrayal.</p>
+  </div>
+
+  <div class="pile">
+    <h3>2. Housekeeping — ruthless, impersonal, common</h3>
+    <p>Purges. Following-count diets. “I don’t follow people I don’t really know.” Work feed vs real feed. They changed what the app is for. Old follow, don’t recognize you. Accident. Followed while a connection was useful, unfollowed when it went idle.</p>
+    <p class="muted">Biggest pile. Least satisfying. Nobody sat with your work and found it wanting. You didn’t survive a pass they barely remember making. People can like you and still not want you in the stream.</p>
+  </div>
+
+  <div class="pile">
+    <h3>3. Weak ties that felt stronger than they were</h3>
+    <p>This is the pile your stomach is actually in. Artists, DJs, photographers, nightlife, NYC acquaintances. People you talked to this year. People you talked about doing something with.</p>
+    <p>In person that can feel like the start of a world. Digitally it often never consolidates. The conversation can be real — not networking-smile fake — and you still never become how they use the app.</p>
+    <p class="muted">The talk happened. The relationship didn’t become a feed. Those are different events. The “we should do something” hangover is cruel because it had a future tense. Usually they just didn’t build that version. The app kept the receipt.</p>
+  </div>
+
+  <div class="pile">
+    <h3>4. The few that might be a real social decision</h3>
+    <p>Sometimes somebody does deliberately remove a person. Even then the sentence is often <em>I don’t want this person in my digital circle anymore</em> — not <em>Roberto is pollution</em>.</p>
+    <p class="muted">Those can overlap. You cannot tell which from a missing follow. The list looks like a verdict with credits. It isn’t enough information.</p>
+  </div>
+
+  <h2>The feeling under “what the fuck”</h2>
+  <p>You’re applying a decent human rule: if they’re interesting, we’ve been decent to each other, and I’m not hurting their feed — why would they remove me?</p>
+  <p>A lot of people do not use following that way. They use it like cleaning out a closet. You would not throw out a person you had a good year with. They will throw out an <em>account</em> they had a good year with. You experience that as interpersonal. They experience it as UI.</p>
+  <p>So part of the nausea is asymmetric ethics. From inside your rule-set, they went out of their way. From inside theirs, they barely did anything. Both can be true. You don’t have to pretend theirs is wiser. You also don’t have to treat their closet-clean as a reading of your worth.</p>
+  <p><strong>This person doesn’t follow you</strong> is observable. <strong>This person doesn’t value you</strong> is a story. Sometimes the story will be right. The list cannot tell you when.</p>
+
+  <h2>I don’t add pollution</h2>
+  <p>That part deserves to stay. You’re not a spam account asking why the universe is unfair. You’re looking at a feed you actually care about and asking why someone would subtract you from it.</p>
+  <p>Fair question. Incomplete data.</p>
+  <p>Non-polluting is not a contract for being wanted. You already passed your own test: you aren’t flooding people, you aren’t empty, you’re trying to make something. If someone still doesn’t want it in their scroll, that’s their feed — not a correction of that fact.</p>
+  <p>The list is formatted like a referendum: row after row of no. It isn’t one. It’s a mixed export of fame, institutions, hygiene, cowardice, accidents, and a handful of real social trims you will never get a text about.</p>
+
+  <hr class="rule" />
+
+  <h2>What to do with the feeling</h2>
+  <p>You already looked. You can’t un-see the names. “Not caring” on command will fail, because you <em>do</em> care about some of those people. That’s why the row hurt.</p>
+  <ul>
+    <li><strong>Let the famous / brand / venue names go first.</strong> They borrowed intensity from the human names by sitting next to them.</li>
+    <li><strong>Assume housekeeping as the default</strong> for anyone you don’t have a real ongoing relationship with. Not because it’s soothing. Because it’s the base rate.</li>
+    <li><strong>For the ones you talked to:</strong> keep the conversation. Drop the feed as proof. You can be sad the Instagram didn’t continue without rewriting the hangout as fake.</li>
+    <li><strong>Don’t revenge-unfollow tonight.</strong> That’s turning their closet into your personality. Follow who you actually want to see.</li>
+    <li><strong>Don’t open a new account to escape the witnesses.</strong> A few people unfollowed. Most didn’t. The ones who did are not a reason to disappear.</li>
+  </ul>
+  <p>You can still think <em>what the fuck</em> about a specific person. You’re not crazy for that. You just don’t get to promote that sentence to a theory of your value, or of the whole 211.</p>
+  <p>The list is a bad oracle. It’s a decent map of who you look at. It’s a terrible map of who you are.</p>
+</body>
+</html>
