@@ -26,7 +26,7 @@ Sometimes they did.
 A lot of the time they did something much dumber and colder than that, which is not the same as “it doesn’t matter.”
 
 The sting is not that 211 people failed a popularity test.  
-The sting is **recognition**. You weren’t rejected by a crowd. You were (apparently) unset by individuals you had filed as *in the story*.
+The sting is **recognition**. You weren’t rejected by a crowd. You were (apparently) dropped by individuals you had filed as *in the story*.
 
 ---
 
