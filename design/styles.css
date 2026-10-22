@@ -217,13 +217,70 @@ a {
   gap: 2.5rem;
 }
 
-.concept-stack figure {
+.concept-stack figure,
+.feature {
   margin: 0;
 }
 
-.concept-stack img {
+.concept-stack img,
+.feature img {
   width: 100%;
   border-radius: 2px;
+}
+
+.feature figcaption {
+  margin-top: 0.85rem;
+  font-size: 0.875rem;
+  color: var(--muted);
+}
+
+.spec-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.25rem 1.75rem;
+  margin-top: 2.5rem;
+}
+
+.spec-grid article {
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--line);
+}
+
+.spec-grid h3 {
+  margin: 0 0 0.55rem;
+  font-size: 0.75rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--warm);
+}
+
+.spec-grid p {
+  margin: 0;
+  color: var(--mist);
+}
+
+.rules {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.rules div {
+  padding: 1.25rem 0;
+  border-top: 1px solid var(--line);
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.rules strong {
+  font-weight: 560;
+  color: var(--text);
+}
+
+.rules span {
+  color: var(--muted);
+  font-size: 0.95rem;
 }
 
 .swatches {
@@ -411,7 +468,9 @@ td:nth-child(3) {
 @media (max-width: 800px) {
   .diag-grid,
   .swatches,
-  .photo-rail {
+  .photo-rail,
+  .spec-grid,
+  .rules {
     grid-template-columns: 1fr 1fr;
   }
 }
@@ -419,7 +478,9 @@ td:nth-child(3) {
 @media (max-width: 560px) {
   .diag-grid,
   .swatches,
-  .photo-rail {
+  .photo-rail,
+  .spec-grid,
+  .rules {
     grid-template-columns: 1fr;
   }
 
