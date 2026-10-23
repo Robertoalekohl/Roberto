@@ -1,29 +1,22 @@
-# Sealed bedroom studio
+# Less, but better — studio suite system
 
-Revised design: **build a real wall in the bedroom opening** so night work doesn’t disturb a partner.
+Dieter Rams–principled redesign of the bedroom studio.
 
-## Open the board
+## Idea
 
-Open [`design/index.html`](design/index.html) in a browser.
+The wide studio↔bedroom opening becomes a **thickened utility partition** (~35–45 cm) that does three jobs in one footprint:
 
-## Direction
+1. **Night seal** — flush solid door + acoustic seals (work late without waking a partner)  
+2. **Studio storage** — aluminum modular uprights (606 language) so gear leaves the desk and floor  
+3. **Bedroom wardrobe** — clothes leave the room volume  
 
-Fill the wide studio↔bedroom cutout with a stud wall + solid-core acoustic door.
+Light grey / white walls. Clear oak desk. Keep Adams, MIDI tray, hall entry after bedtime.
 
-- Studio face: matte black (night booth)
-- Bedroom face: cream (sleep room)
-- Enter the studio from the hall door after bedtime — keep the new door closed
+## Open
 
-A curtain only suggests privacy. This wall blocks light and sound.
-
-## Build order
-
-1. Measure opening / check lease  
-2. Frame + insulate + drywall the cutout  
-3. Solid-core door with acoustic seals + door bottom  
-4. Paint each face, acoustic panels at the desk, closed wardrobe on the sleep side  
+[`design/index.html`](design/index.html)
 
 ## Assets
 
-- `design/concepts/` — wall / night-isolation renders  
-- `design/photos/` — existing room angles  
+- `design/concepts/` — system renders  
+- `design/photos/` — existing angles  
